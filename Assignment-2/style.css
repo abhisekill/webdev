@@ -1,0 +1,32 @@
+
+*{
+    background-color: #323437;
+}
+
+h1{
+    background-color: #e2b714;
+    border: 2px solid black;
+    position: sticky;
+    top: 10px;
+    margin: 30px 400px 20px 80px;
+    padding: 7px;
+}
+
+div div{
+    border: 1px solid grey;
+}
+
+ul{
+    margin: 0px ;
+}
+
+li{
+    /* background: grey; */
+    color: #d1d0c5;
+}
+
+li:hover{
+    background-color: grey;
+    color: white;
+    font-size: 1.1rem;
+}
