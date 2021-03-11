@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #03071e;
+    background-image: url("https://images.unsplash.com/photo-1549645402-a9d655c5c344?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fEd0ckJTY3YxYjVNfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-size: auto;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    border-top: 5px solid #ffaa00;
+    border-bottom: 5px solid green;
+    text-align: center;
+    margin: 10px auto;
+    width: 700px;
+    padding: 10px;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);;
+}
+
+div {
+    text-align: center;
+}
+
+button{
+    border: 2px solid #fb8500;
+    color: #fb8500;
+    margin: 300px auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'RocknRoll One', sans-serif;
+    position: relative;
+}
+
+button:hover{
+    border-color: #bfd200;
+    color: white;
+    box-shadow: 0px 6px 6px -2px #bfd200;
+    top: -10px;
+}
