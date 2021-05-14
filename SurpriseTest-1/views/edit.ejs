@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Blog</title>
+</head>
+<body>
+    
+    <fieldset>
+        <h2>Edit Blog</h2>
+        <form action="/blogs/<%= foundBlog.id %>?_method=PATCH" method="POST">
+            <h4>Author &mdash; <%= foundBlog.author %> </h4>
+            <label for="title">Edit Title</label>
+            <br><br>
+            <input type="text" name="title" id="title" required value="<%= foundBlog.title %>">
+            <br><br><br>
+            <label for="img">Edit Image Url</label>
+            <br><br>
+            <input type="text" name="img" id="img" required value="<%= foundBlog.img %>">
+            <br><br><br>
+            <label for="text">Your Blog Goes Here!!!</label>
+            <br><br>
+            <textarea name="text" id="text" cols="60" rows="10"><%= foundBlog.text %></textarea>
+            <br><br><br>
+            <button>Save</button>
+        </form>
+    </fieldset>
+
+</body>
+</html>

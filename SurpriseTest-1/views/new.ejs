@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create a new blog</title>
+
+
+</head>
+<body>
+
+    <fieldset>
+        <h2>Add a new Blog</h2>
+        <form action="/blogs" method="POST">
+            <label for="title">Add Title</label>
+            <br><br>
+            <input type="text" name="title" id="title" required>
+            <br>
+            <br>
+            <br>
+            <label for="img">Image Url</label>
+            <br><br>
+            <input type="text" name="img" id="img" required>
+            <br>
+            <br>
+            <br>
+            <label for="author">Add Author</label>
+            <br><br>
+            <input type="text" name="author" id="author" required>
+            <br>
+            <br>
+            <br>
+            <label for="text">Your Blog Goes Here!!!</label>
+            <br>
+            <br>
+            <textarea name="text" id="text" cols="60" rows="10"></textarea>
+            <br><br><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
+    
+</body>
+</html>

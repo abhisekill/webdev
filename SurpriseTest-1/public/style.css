@@ -1,0 +1,39 @@
+body {
+  background-color: #081c15;
+}
+
+.card {
+  margin: 15px auto;
+  padding: 7px;
+  width: 25rem;
+  background-color: #d8f3dc;
+}
+
+.title {
+  text-align: center;
+  color: green;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card-author {
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 10px;
+}
+
+h4 {
+  text-align: center;
+  background-color: orange;
+  color: white;
+  width: 25rem;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 5px;
+  font-style: italic;
+}
